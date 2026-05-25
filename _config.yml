@@ -1,0 +1,9 @@
+title: Jay Patil
+author: Jay Patil
+url: "https://JayPatil9.github.io"
+
+remote_theme: riggraz/no-style-please
+
+markdown: kramdown
+theme_config:
+  appearance: "auto"
