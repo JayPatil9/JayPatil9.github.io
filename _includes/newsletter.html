@@ -1,0 +1,70 @@
+<head>
+<style>
+.newsletter-wrapper {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px dashed currentColor;
+}
+
+.newsletter-wrapper p {
+  margin-bottom: 0.5em;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.newsletter-form input[type="email"] {
+  flex-grow: 1;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1rem;
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  outline: none;
+}
+
+.newsletter-form input[type="email"]:focus {
+  border-width: 2px;
+  padding: calc(0.5em - 1px);
+}
+
+.newsletter-form button {
+  padding: 0.5em 1.5em;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  background: currentColor;
+  color: var(--bg-color, Canvas);
+  border: 1px solid currentColor;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background: transparent;
+  color: inherit;
+}
+
+@media (max-width: 450px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+
+
+<div class="newsletter-wrapper">
+  <p style="text-align: center;"><strong>Subscribe for updates</strong></p>
+  <p>Get notified when I publish new technical deep-dives.</p>
+  
+  <form class="newsletter-form" action="https://portfolio--backend.vercel.app/api/newsletter" method="POST">
+    <input type="email" name="email" placeholder="yourname@email.com" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</div>

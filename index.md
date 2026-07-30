@@ -32,3 +32,5 @@ My goal isn't just to teach a concept, but to give you a "eureka" moment by show
 *Oh wait! Lemme cook first...*
 
 ---
+
+{% include newsletter.html %}
