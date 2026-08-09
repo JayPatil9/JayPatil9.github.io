@@ -16,7 +16,7 @@
   margin-top: 1em;
 }
 
-.newsletter-form input[type="email"] {
+.newsletter-form input {
   flex-grow: 1;
   padding: 0.5em;
   font-family: inherit;
@@ -64,7 +64,8 @@
   <p>Get notified when I publish new technical deep-dives.</p>
   
   <form class="newsletter-form" action="https://portfolio--backend.vercel.app/api/newsletter" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="yourname@email.com" required>
-    <button type="submit">Subscribe</button>
+    <input type="submit" value="Subscribe">
   </form>
 </div>
