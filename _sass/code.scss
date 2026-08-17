@@ -3,7 +3,7 @@ code {
     background-color: #23241f; /* Monokai Sublime background */
     color: #f92672;
     padding: 0.2em 0.4em;
-    border-radius: 3px;
+    border-radius: 3px 3px 0px 0px;
     font-size: 0.9em;
     white-space: nowrap;
 }
@@ -17,10 +17,49 @@ code {
 .highlight {
     background-color: #23241f;
     color: #f8f8f2;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
     overflow-x: auto;
 }
+
+.code-block {
+    background-color: #23241f;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.run-it {
+    text-align: left;
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #23241f;
+}
+
+.run-it .run-button {
+    margin: 0px 0px 10px 10px;
+    border: 1px solid #f92672;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #f92672;
+    font-family: inherit;
+    font-size: 0.85em;
+    font-weight: 600;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.run-it .run-button:hover {
+    background-color: #f92672;
+    color: #23241f;
+}
+
+.run-it .run-button:active {
+    background-color: #e91e63;
+}
+
 .highlight pre { background-color: #23241f; }
 .highlight .hll { background-color: #49483e; } /* Sublime's line highlight color */
 .highlight .c { color: #75715e } /* Comment */

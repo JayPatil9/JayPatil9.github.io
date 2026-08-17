@@ -1,0 +1,10 @@
+<div class="run-it spare-me">
+    <button class="run-button" onClick="runCode()">Try it</button>
+</div>
+
+<script>
+function runCode() {
+    const url = "https://code-leaf.vercel.app/playground/{{ include.id }}";
+    window.open(url, "_blank");
+}
+</script>
