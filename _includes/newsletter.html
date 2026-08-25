@@ -63,7 +63,7 @@
   <p style="text-align: center;"><strong>Subscribe for updates</strong></p>
   <p>Get notified when I publish new technical deep-dives.</p>
   
-  <form class="newsletter-form" action="https://portfolio--backend.vercel.app/api/newsletter" method="POST">
+  <form class="newsletter-form" action="https://portfolio--backend.vercel.app/api/newsletter" method="POST" onsubmit="const btn = this.querySelector('input[type=submit]'); setTimeout(() => { btn.disabled = true; btn.value = 'Processing...'; }, 0);">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="yourname@email.com" required>
     <input type="submit" value="Subscribe">
