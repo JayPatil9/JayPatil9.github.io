@@ -6,6 +6,8 @@ code {
     border-radius: 3px 3px 0px 0px;
     font-size: 0.9em;
     white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
 }
 .highlight code {
     background-color: transparent;
@@ -27,6 +29,8 @@ code {
     color: #f8f8f2;
     padding: 10px;
     border-radius: 10px;
+    white-space: nowrap;
+    width: 100%;
     overflow-x: auto;
 }
 
