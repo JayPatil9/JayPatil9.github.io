@@ -25,7 +25,7 @@
   function sendPostRequest() {
     if (!hasSentPostRequest) {
       hasSentPostRequest = true;
-      fetch(`https://portfolio--backend.vercel.app/api/views/{ include.post_id }`, {method: 'POST'})
+      fetch(`https://portfolio--backend.vercel.app/api/views/{{ include.post_id }}`, {method: 'POST'})
         .then(() => {
           console.log('View count incremented.');
         })
@@ -35,7 +35,7 @@
         });
     }
   };
-  fetch(`https://portfolio--backend.vercel.app/api/views/{ include.post_id }`, {method: 'GET'})
+  fetch(`https://portfolio--backend.vercel.app/api/views/{{ include.post_id }}`, {method: 'GET'})
     .then(response => response.json())
     .then(data => {
       console.log('Data from api:', data);
