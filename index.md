@@ -33,6 +33,7 @@ My goal isn't just to teach a concept, but to give you a "eureka" moment by show
 I would recommend reading the posts in chronological order, as they were written to build upon each other (<a href="https://jaypatil9.github.io/#posts">link to the list</a>). But if you are looking for a specific topic, here are some highlights:
 
 {% include list_post.html title="Linear Algebra: The Math Class You Probably Slept Through" link="la" %}
+{% include list_post.html title="Generating Functions 1" link="genfunc1" %}
 
 ---
 
