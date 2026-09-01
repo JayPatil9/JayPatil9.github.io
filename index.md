@@ -34,6 +34,7 @@ I would recommend reading the posts in chronological order, as they were written
 
 {% include list_post.html title="Linear Algebra: The Math Class You Probably Slept Through" link="la" %}
 {% include list_post.html title="Generating Functions 1" link="genfunc1" %}
+{% include list_post.html title="Horner's Method" link="horner" %}
 
 ---
 

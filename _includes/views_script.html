@@ -6,7 +6,7 @@
   function startTimer() {
     viewTimer = setInterval(() => {
       viewTime += 1;
-      if (viewTime >= 90 && !hasSentPostRequest) {
+      if (viewTime >= 30 && !hasSentPostRequest) {
         clearInterval(viewTimer);
         sendPostRequest();
       }
