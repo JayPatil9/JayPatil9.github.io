@@ -5,9 +5,9 @@ title: Home
 
 # Hi, I'm Jay 👋
 
-I am an undergraduate student majoring in Electrical Engineering, but my curiosity has never really respected the boundaries of my syllabus.
+I am an undergraduate student and a developer with a deep passion for competitive programming, mathematics, and building software.
 
-By day, I am studying some crazy core EE topics. But by night, I am just as likely to be puzzling over some codeforces problem, or lost in exploring a completely different domain.
+Whether I am optimizing algorithms on Codeforces, exploring full-stack development, or diving into linear algebra, I love tackling complex concepts across distinct technical domains.
 
 As I spend my time jumping between completely independent disciplines, my brain naturally searches for correlations between them.
 
