@@ -1,0 +1,26 @@
+<details class="hint">
+    <summary>{{ include.title | default: "Hint for the next post" }}</summary>
+    <div class="hint-body">{{ include.content }}</div>
+</details>
+
+<style>
+    .hint {
+        margin: 1.5em 0;
+        padding: 0.4em 1em;
+        border: 1px dashed currentColor;
+        font: inherit;
+        color: inherit;
+        background: transparent;
+    }
+    .hint summary {
+        cursor: pointer;
+        font-weight: bold;
+        list-style: none;
+    }
+    .hint summary::-webkit-details-marker { display: none; }
+    .hint summary::before { content: "[+] "; }
+    .hint[open] summary::before { content: "[−] "; }
+    .hint summary:hover { text-decoration: underline; }
+    .hint-body { margin-top: 0.6em; }
+    .hint-body p { margin: 0.4em 0; }
+</style>
